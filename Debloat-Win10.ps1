@@ -107,12 +107,12 @@ foreach ($service in $services) {
 
 # Remove Password Age Limit (Passwords never expire) #
 
-net accounts /maxpwage:0
+# net accounts /maxpwage:0
 
 
-# Set Password Age Limit to 60 Days#
+# Set Password Age Limit to 90 Days#
 
-#net accounts /maxpwage:60
+net accounts /maxpwage:90
 
 
 # This script removes all Start Menu Tiles from the .default user #
